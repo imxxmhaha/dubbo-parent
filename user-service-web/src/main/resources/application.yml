@@ -1,0 +1,17 @@
+dubbo:
+  application:
+    name: dubbo-user-web
+  registry:
+    address: zookeeper://192.168.200.128:2181
+#dubbo.application.registries.timeout=xxx
+
+
+
+server:
+  port: 8080
+spring:
+  freemarker:
+    suffix: .html
+
+
+
